@@ -1,16 +1,10 @@
 package com.masa.proxyserver;
 
 import java.net.InetSocketAddress;
-import java.security.spec.ECFieldF2m;
-import java.time.format.TextStyle;
-import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.OutputStream;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpExchange;
-import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpServer;
 
 public class ProxyHttpServer extends Thread
